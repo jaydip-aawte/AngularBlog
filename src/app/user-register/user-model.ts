@@ -5,5 +5,5 @@ export class User{
   mobileNumber:number=0
   address:String=""
   username:String=""
-  dob:Date=new Date()
+  dob:String=new Date().toLocaleString()
 }

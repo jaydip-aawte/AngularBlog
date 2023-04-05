@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { UserRegisterComponent } from './user-register/user-register.component';
+import { AppComponent } from './app.component';
 const routes: Routes = [
   {
-    "path":'/userRegister',
+    "path":'userRegister',
     "component":UserRegisterComponent,
     "pathMatch":"full"
   },
+
 ];
 
 @NgModule({
